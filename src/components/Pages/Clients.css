@@ -1,0 +1,44 @@
+.ClientsSection {
+  color: white;
+}
+
+.clientsHead {
+  background-image: url("../../Assests/Images/Clients-Background.png");
+  background-position: center;
+  max-width: 100vw;
+}
+
+.CHead {
+  font-size: 54px;
+}
+.Client {
+  transition: transform 150ms ease-in-out;
+}
+
+
+.Client img {
+  width: auto;
+  max-height: 76px;
+}
+
+.Client a {
+  background-color: #095ca0;
+  border: 0px solid black;
+  color: white;
+  font-weight: 400;
+  transition: transform 300ms ease-in-out;
+}
+.Client a{
+  text-decoration: none;
+  color: inherit;
+}
+.Client a:hover {
+  background-color: #0a5491;
+  /* transform: scale(1.03); */
+}
+
+.Client a:active {
+  background-color: #0a5491 !important;
+  color: black;
+  transform: scale(0.9);
+}

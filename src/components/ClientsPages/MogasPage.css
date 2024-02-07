@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
+
+.MogasPage{
+  font-family: "Inter Tight", sans-serif;
+
+}
+.ScopeManufacturing{
+  text-align: justify;
+}
+.ScopeManufacturing > li{
+  margin-top: 6px;
+}

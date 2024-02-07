@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
+
+.cdiMarkets {
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 600;
+  border: 2px solid black;
+}
+
+.cdiMarkets > h4 {
+  border: 2px solid black;
+}
+
+#cdiSingaporemarket,
+#cdiUsmarket {
+  cursor: pointer;
+}
+
+.activeMarket {
+  background-color: rgb(9, 92, 160);
+  color: white;
+}
+
+.CdiSingaporePage,
+.CdiUsPage {
+  font-family: "Inter Tight", sans-serif;
+}
+
+.CdiSingaporePageHead {
+  font-weight: 700;
+}
+
+.ScopeManufacturing > li,
+.cdiSingaporeReports > li {
+  list-style: none;
+}
+.CdiManfacturingList {
+  max-width: 1040px;
+}
+
+.CdiManfacturingList > h3 {
+  background-color: rgb(73, 114, 150);
+  color: white;
+  user-select: none;
+}
+.CdiManfacturingList > h3:hover {
+  cursor: pointer;
+  background-color: rgb(64, 101, 134);
+}
+
+@media only screen and (max-width: 991px) {
+    .CdiManfacturingList > h3{
+        font-size: 18px;
+    }
+    .CdiManfacturingList  li{
+        font-size: 16px;
+        background-color: red;
+      }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .CdiManfacturingList > h3{
+        font-size: 16px;
+    }
+    .CdiManfacturingList  li{
+        font-size: 14px;
+        background-color: yellow;
+      }
+}

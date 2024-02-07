@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.Info {
+  position: relative;
+  background: url("../../Assests/Images/back5.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: auto auto;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  min-height: 600px;
+  overflow: hidden;
+}
+.infomain,
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.har,
+.web {
+  font-family: "Noto Serif", serif; 
+  font-size: 50px;
+  font-weight: 700;
+}
+.web{
+  font-style: italic;
+  font-size: 55px;
+  color: rgb(152, 230, 142);
+
+}
+
+.web {
+  margin-top: -16px;
+  opacity: 0.7;
+}
+
+.Info a:hover {
+  box-shadow: 0px 0px 20px rgb(218, 107, 4);
+  transform: scale(1.1);
+}
+
+.diveInTag > .container{
+  max-width: 900px;
+}
+
+.globalImage{
+  background-color: #2A2E99;
+  color: white;
+  font-size: 20px;
+}
+
+.globalGlobal{
+  font-weight: 600;
+}
+
+.globalOur{
+  font-weight: 400;
+  border-bottom: 4px solid white;
+}
+
+.countriesImg  {
+  width: 80vw;
+}
+@media only screen and (max-width: 767px) {
+  .Info {
+    font-size: 14px;
+  }
+  .har,
+  .web {
+    font-size: 28px;
+
+  }
+
+  .web {
+    margin-top: -5px;
+    opacity: 0.7;
+  }
+
+  .globalImage{
+    font-size: 14px;
+  }
+  
+  .globalGlobal{
+  font-size: 22px !important;
+  }
+  
+  .globalOur{
+    font-size: 22px !important;
+
+  }
+}
